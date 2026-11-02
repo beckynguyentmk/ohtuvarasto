@@ -1,2 +1,2 @@
 # ohtuvarasto
-https://github.com/beckynguyentmk/ohtuvarasto/actions
+![GHA workflow badge](https://github.com/beckynguyentmk/ohtuvarasto/actions)
