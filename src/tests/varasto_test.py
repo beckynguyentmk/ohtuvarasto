@@ -16,7 +16,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_luo_oikean_saldon(self):
         var=Varasto(10,3)
-        self.assertAlmostEqual(var.saldo,4)
+        self.assertAlmostEqual(var.saldo,3)
 
     def test_ei_luo_ylimääräistä_saldoa(self):
         var=Varasto(10,20)
