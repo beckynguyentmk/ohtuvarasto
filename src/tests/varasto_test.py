@@ -1,6 +1,6 @@
 import unittest
 from varasto import Varasto
-
+print('hello')
 
 class TestVarasto(unittest.TestCase):
     def setUp(self):
@@ -76,5 +76,4 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 4)
 
     def test_tulostaa_oikean_tiedon(self):
-        tila=self.varasto.paljonko_mahtuu()
         self.assertEqual(self.varasto.__str__(),'saldo = 0, vielä tilaa 10')
