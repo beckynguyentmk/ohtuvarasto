@@ -1,6 +1,5 @@
 import unittest
 from varasto import Varasto
-print('hello')
 
 class TestVarasto(unittest.TestCase):
     def setUp(self):
